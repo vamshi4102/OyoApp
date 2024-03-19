@@ -1,0 +1,74 @@
+export const Locations = [
+    {
+        id:1,
+        name:'Delhi',
+        image:'https://www.planetware.com/photos-large/IND/india-top-attractions-taj-mahal.jpg',
+    },
+    {
+        id:2,
+        name:'Banglore',
+        image:'https://cdn.britannica.com/56/177656-050-04529521/Glass-House-conservatory-building-Lalbagh-Botanical-Garden.jpg',
+    },
+    {
+        id:3,
+        name:'Banglore',
+        image:'https://cdn.britannica.com/56/177656-050-04529521/Glass-House-conservatory-building-Lalbagh-Botanical-Garden.jpg',
+    },
+    {
+        id:4,
+        name:'Hyderabad',
+        image:'https://images.herzindagi.info/image/2022/Oct/places-to-visit.jpg',
+    },
+    {
+        id:5,
+        name:'Mumbai',
+        image:'https://www.fabhotels.com/blog/wp-content/uploads/2018/09/places-vist-in-mumbai-600.jpg',
+    }, 
+    {
+        id:12,
+        name:'Goa',
+        image:'https://www.treebo.com/blog/wp-content/uploads/2017/01/Places-to-visit-in-Goa.jpg',
+    },
+    {
+        id:6,
+        name:'Kolkatta',
+        image:'https://cdn.britannica.com/56/177656-050-04529521/Glass-House-conservatory-building-Lalbagh-Botanical-Garden.jpg',
+    },
+    {
+        id:7,
+        name:'Rajastan',
+        image:'https://assets.traveltriangle.com/blog/wp-content/uploads/2019/02/Hawa-Mahal_24th-oct.jpg?tr=w-400',
+    },
+    {
+        id:8,
+        name:'Gujarath',
+        image:'https://cdn.britannica.com/56/177656-050-04529521/Glass-House-conservatory-building-Lalbagh-Botanical-Garden.jpg',
+    }
+];
+
+export const Filters = [
+{
+    id:'1',
+    name:'Sort',
+    onPress:console.warn('sort'),
+},
+{
+    id:'2',
+    name:'Location',
+    onPress:console.warn('Location'),
+},
+{
+    id:'3',
+    name:'Price',
+    onPress:console.warn('Price'),
+},{
+    id:'4',
+    name:'Date',
+    onPress:console.warn('Date'),
+},
+{
+    id:'5',
+    name:'Offers',
+    onPress:console.warn('Offers'),
+}
+]
